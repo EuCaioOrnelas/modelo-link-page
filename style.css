@@ -58,6 +58,19 @@ a {
   transform: scale(1.1); /* Aumenta o tamanho da imagem em 10% */
 }
 
+.sobre {
+  max-width: 1060px;
+}
+
+.sobre h2 {
+  text-align: center;
+}
+
+.sobre p {
+  text-align: justify;
+  font-size: 20px;
+}
+
 .links-section {
   display: flex;
   justify-content: center;
@@ -69,6 +82,8 @@ a {
 
 .links-section img {
   width: 100%;
+  height: auto;
+  display: block; /* garante que o padding e margens respeitem o container */
   transition: transform 0.3s ease-in-out; /* Suaviza a animação */
 }
 
@@ -98,6 +113,12 @@ footer {
     width: 30px;
     transition: transform 0.3s ease-in-out; /* Suaviza a animação */
   }
+
+  .sobre p {
+    text-align: justify;
+    font-size: 16px;
+  }
+
   .links-section {
     gap: 20px;
   }

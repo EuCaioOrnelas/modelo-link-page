@@ -1,68 +1,143 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Link Page</title>
+
+    <!-- 🧠 Título da aba (aparece no Google e no navegador) -->
+    <title>Boracelle Barbearia | Cortes e Barba em Maringá</title>
+
+    <!-- 📝 Descrição para o Google (atrai cliques) -->
+    <meta
+      name="description"
+      content="Barbearia em Maringá especializada em cortes modernos, barba desenhada e atendimento personalizado. Agende seu horário na Boracelle!"
+    />
+
+    <!-- 🔍 Palavras-chave (ajuda o Google a entender o conteúdo) -->
+    <meta
+      name="keywords"
+      content="barbearia Maringá, corte masculino, barba desenhada, Boracelle Barbearia"
+    />
+
+    <!-- ✍️ Nome do autor ou proprietário do site -->
+    <meta name="author" content="Boracelle Barbearia" />
+
+    <!-- 🔗 Link para seu CSS (mantido como está) -->
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <div class="content">
       <div class="section_content">
         <div class="user">
           <div class="image-user">
-            <img src="img/perfil.webp" alt="Foto de Perfil Caio Wiize" />
+            <!-- 🖼️ Foto ou logo da barbearia -->
+            <img
+              src="img/perfil.webp"
+              alt="Foto do barbeiro da Boracelle Barbearia"
+            />
           </div>
 
+          <!-- 🏷️ Nome da barbearia (use com h1 para SEO) -->
+          <h1>Boracelle Barbearia</h1>
+
+          <!-- 📲 Instagram da barbearia -->
           <p>Siga <strong>@seuinstagramaqui</strong> nas redes sociais!</p>
+
+          <!-- 🌐 Links para redes sociais -->
           <div class="redes_sociais">
             <a
               href="https://www.instagram.com/#"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="img/instagram.png" alt="Instagram" />
+              <img
+                src="img/instagram.png"
+                alt="Instagram da Boracelle Barbearia"
+              />
             </a>
-
             <a
               href="https://www.tiktok.com/@caio.wiize"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="img/tik-tok.png" alt="Youtube" />
+              <img src="img/tik-tok.png" alt="TikTok da Boracelle Barbearia" />
             </a>
-
             <a
               href="https://www.youtube.com/@caiowiize"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="img/youtube.png" alt="Tik Tok" />
+              <img src="img/youtube.png" alt="YouTube da Boracelle Barbearia" />
             </a>
           </div>
         </div>
 
+        <div class="sobre">
+          <!-- ℹ️ Título da seção (use <h2> para SEO) -->
+          <h2>Sobre nós:</h2>
+          <br />
+          <!-- 📖 Texto com palavras-chave locais e linguagem clara -->
+          <p>
+            Na <strong>Boracelle Barbearia, em Maringá</strong>, oferecemos
+            cortes de cabelo modernos e tradicionais, barba desenhada,
+            acabamento navalhado e cuidados masculinos com excelência. Nosso
+            ambiente é confortável, climatizado e pensado para proporcionar uma
+            experiência completa — não apenas um corte, mas um momento de
+            cuidado e estilo. Atendemos com hora marcada e também por ordem de
+            chegada. Venha se cuidar com quem entende do assunto!
+          </p>
+        </div>
+
         <div class="links-section">
+          <!-- 🔗 Botões/imagens clicáveis (otimize os ALT para SEO) -->
           <a href="#" target="_blank" rel="noopener noreferrer">
-            <img src="img/img3.png" alt="Link 1" />
+            <img
+              src="img/img3.png"
+              alt="Agendar horário na Boracelle Barbearia"
+            />
           </a>
           <a href="#" target="_blank" rel="noopener noreferrer">
-            <img src="img/img1.png" alt="Link WA WorkFlow" />
+            <img
+              src="img/img1.png"
+              alt="Serviços de corte de cabelo em Maringá"
+            />
           </a>
           <a href="#" target="_blank" rel="noopener noreferrer">
-            <img src="img/img2.png" alt="Link 1" />
+            <img src="img/img2.png" alt="Contato com a Boracelle Barbearia" />
           </a>
           <a href="#" target="_blank" rel="noopener noreferrer">
-            <img src="img/img4.png" alt="Link WA WorkFlow" />
+            <img src="img/img4.png" alt="Localização da barbearia em Maringá" />
           </a>
         </div>
       </div>
     </div>
+
+    <!-- ⚙️ Rodapé com créditos -->
     <footer>
       <p>
         2025 - Todos os direitos reservados - Feito pela
         <a href="https://www.clickwiize.com.br/">Agência Click Wiize ❤️</a>
       </p>
     </footer>
+
+    <!-- ✅ SEO avançado: dados estruturados para o Google (não aparecem na tela) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Barbershop",
+        "name": "Boracelle Barbearia",
+        "image": "https://www.seusite.com.br/img/perfil.webp",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Maringá",
+          "addressRegion": "PR",
+          "addressCountry": "BR"
+        },
+        "url": "https://www.seusite.com.br",
+        "telephone": "+55 44 99999-9999",
+        "openingHours": "Mo-Sa 09:00-19:00"
+      }
+    </script>
   </body>
 </html>
